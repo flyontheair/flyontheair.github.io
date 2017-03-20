@@ -2,7 +2,7 @@
 layout: post
 title:  "初识java"
 date:   2017-03-19 21:27:18 +0800
-categories: Java
+categories: java
 tags: java springMvc
 author: Over air
 mathjax: true
