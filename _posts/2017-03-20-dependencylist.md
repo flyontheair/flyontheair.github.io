@@ -65,3 +65,11 @@ RestFul接口返回json数据支持
     <version>2.2.3</version>
 </dependency>
 ```
+object和json相互装换
+```
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.0</version>
+</dependency>
+```
