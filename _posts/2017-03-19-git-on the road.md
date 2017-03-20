@@ -49,3 +49,8 @@ git checkout dir/filename
 ```
 git push origin dev
 ```
+
+##### 新建远程分支
+```
+git checkout -b ImageUpload
+```
