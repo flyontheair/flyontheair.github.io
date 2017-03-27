@@ -45,7 +45,7 @@ Already up-to-date.
 ```
 git checkout dir/filename
 ```
-######  push代码到远程分支
+######  push代码到远程分支,远程不存在会自动新建远程分支(dev)
 ```
 git push origin dev
 ```
