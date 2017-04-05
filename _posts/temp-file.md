@@ -1,13 +1,21 @@
 #### java.awt.image.BufferedImage 类
 提供一个供访问的图片缓冲区
-方法:
+##### 方法:isAlphaPremultiplied()
 ```
 isAlphaPremultiplied()
 Returns whether or not the alpha has been premultiplied.
 ```
-返回
+延伸阅读:[premultiplied alpha][premultiplied alpha]
+返回图像是否进行过通道混合处理。
 
-属性：`TRANSLUCENT`、`TYPE_INT_RGB`
+##### 属性：`TRANSLUCENT`、`TYPE_INT_RGB`
+TRANSLUCENT:透明度。
+TYPE_INT_RGB：'the color data must be adjusted to a non-premultiplied form and the alpha discarded'
+整数像素，必须没有进行通道混合和加透明度
+```java
+//获取图片类型后再处理
+final int imageType = srcImage.isAlphaPremultiplied() ? BufferedImage.TRANSLUCENT : BufferedImage.TYPE_INT_RGB;
+```
 
 
 #### javax.imageio.imageio 类
@@ -23,3 +31,5 @@ This method does not attempt to locate ImageReaders that can read directly from 
 This method does not close the provided InputStream after the read operation has completed; it is the responsibility of the caller to close the stream, if desired.
 ```
 从InputStream流中读取图片信息到BufferedImage，方法不会自己关闭输入流，需要调用者自己关闭
+
+[premultiplied alpha]:http://blog.csdn.net/mydreamremindme/article/details/50817294
