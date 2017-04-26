@@ -54,3 +54,13 @@ git push origin dev
 ```
 git checkout -b ImageUpload
 ```
+##### 合并dev分支到master
+```
+//在dev分支
+git checkout master
+git merge dev
+//...解决冲突后
+git add --all
+git commit -m "解决冲突"
+git push
+```
