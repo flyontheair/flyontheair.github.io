@@ -31,3 +31,25 @@ public String buildUri(String userId){
 结论：final只是标记了date在本次调用中不能再次指向别的对象，并不代表这个对象始终存在，整个程序生命周期中只初始化一次。
 
 #### @PathVariable不能匹配“/”
+
+
+
+#### $.each遍历数组删除元素,cannot read property 'id' of undefined
+```js
+var id=1;
+$.each(com.list,function(i,obj){
+  if(obj.id==id) com.list.splice(i,1);
+});
+```
+很心大的写了一个这样的代码,一直报我`cannot read property 'id' of undefined`，搞得我莫名其妙，好好看代码才发现了这么一段逻辑。。。删除后没有跳出循环
+修改：
+```js
+var id=1;
+$.each(com.list,function(i,obj){
+  if(obj.id==id) {
+    com.list.splice(i,1);
+    return false;
+  }
+});
+```
+$.each的循环体中的return true和false对应for循环里的continue和break;

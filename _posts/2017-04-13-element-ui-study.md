@@ -16,5 +16,5 @@ mathjax: true
 最后，放弃了，直接修改tooltip样式到需求，去掉Popover.
 
 #### 使用element-ui的tab标签页，button按钮会刷新页面
-问题描述，tab页面里使用了form表单，但是提交按钮直接使用了<button>,发现提交的时候会自动刷新页面。
-问题解决：<el-form>里面使用<el-button>按钮提交数据，解决问题。应该是element-ui对按钮有些限制，后续研究。
+问题描述，tab页面里使用了form表单，但是提交按钮直接使用了`<button>`,发现提交的时候会自动刷新页面。
+问题解决：`<el-form>`里面使用`<el-button>`按钮提交数据，解决问题。应该是element-ui对按钮有些限制，后续研究。
