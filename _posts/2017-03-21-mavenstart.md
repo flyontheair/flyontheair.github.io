@@ -87,3 +87,6 @@ mathjax: true
 ```
 在main文件下建java目录，并修改文件属性为源代码，如下图 <br/>
 ![修改属性](http://gitpages-1251551899.picgz.myqcloud.com/5-12-3.png)
+
+OK，springMvc添加进去了。想继续添加monggodb的，后来折腾了大半天`Spring Data & MongoDB`,发现不好用啊 <br>
+由于本来就是把mongo当附数据库来时用的，直接用`MongoDB-Java-Driver`，存文档简单。比较简单，不再叙述。
