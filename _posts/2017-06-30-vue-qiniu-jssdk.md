@@ -81,4 +81,4 @@ uptoken_func: function(file,cb){//后端接口请求token，一般用这个
 ```
 至此，一个改写过的上传组件就可以了。一般情况下，m.qiniu.js不需要修改了，直接使用m.qiniu.min.js就可以了，自定制的业务直接写在组件的index.js就可以了。 <br/>
 这个组件被放在了git上了，可以直接获取uploadQiniu组件文件夹，引用的时候，需要改写index.js实现自己的业务限制级逻辑。 <br/>
-项目地址：[七牛上传](https://github.com/over-air/QiniuUpload)
+项目地址：[七牛上传](https://github.com/flyontheair/QiniuUpload)
