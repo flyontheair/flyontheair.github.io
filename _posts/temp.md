@@ -48,8 +48,14 @@ var id=1;
 $.each(com.list,function(i,obj){
   if(obj.id==id) {
     com.list.splice(i,1);
+    //i--;
     return false;
   }
 });
 ```
-$.each的循环体中的return true和false对应for循环里的continue和break;
+$.each的循环体中的return true和false对应for循环里的continue和break;当然i--,可以继续循环下去。
+
+
+#### 开发环境搭建完成
+1、环境介绍，开发步骤
+2、技术框架文档 需要声明文档版本，这至关重要
