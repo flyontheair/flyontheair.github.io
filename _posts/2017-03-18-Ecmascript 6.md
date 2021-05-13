@@ -4,7 +4,7 @@ title:  "Ecmascript 6"
 date:   2017-03-18 17:40:18 +0800
 categories: 前端
 tags: Es6
-author: Over air
+author: Max
 mathjax: true
 ---
 

@@ -4,7 +4,7 @@ title:  "Vuex学习笔记"
 date:   2017-05-10 17:25:18 +0800
 categories: 前端
 tags: Vue Vuex
-author: Over air
+author: Max
 mathjax: true
 ---
 

@@ -4,7 +4,7 @@ title:  "两个数组求差集"
 date:   2017-05-11 16:11:18 +0800
 categories: 前端
 tags: javascript 算法
-author: Over air
+author: Max
 mathjax: true
 ---
 

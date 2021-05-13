@@ -4,7 +4,7 @@ title:  "element-ui 踩坑实践"
 date:   2017-04-03 23:45
 categories: 前端
 tags: element-ui
-author: Over air
+author: Max
 mathjax: true
 ---
 * content

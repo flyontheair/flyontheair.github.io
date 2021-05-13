@@ -4,7 +4,7 @@ title:  "git学习 基础（二）"
 date:   2017-03-19 10:26:18 +0800
 categories: 版本控制
 tags: git
-author: Over air
+author: Max
 mathjax: true
 ---
 * content

@@ -4,7 +4,7 @@ title:  "使用vue、elementUI、七牛jssdk做上传组件"
 date:   2017-06-30 10:58
 categories: 前端
 tags: Vue plupload
-author: Over air
+author: Max
 mathjax: true
 ---
 * content

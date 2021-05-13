@@ -4,7 +4,7 @@ title:  "java maven 用到的dependency及功能记录"
 date:   2017-03-20 15:06:18 +0800
 categories: java
 tags: java dependency
-author: Over air
+author: Max
 mathjax: true
 ---
 * content
