@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Mac环境下,配置spark连接hive的本地开发环境"
