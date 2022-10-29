@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mac环境下,配置spark连接hive的本地开发环境"
-date:   2022-10-22 16:00
+date: 2022-10-22 16:00
 categories: spark
 tags: spark hive hadoop
 author: Max
